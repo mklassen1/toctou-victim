@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
-# Victim baseline. On cdap this position is the real Maven build; here it is a harmless marker.
-echo "[benign] baseline code"
-# harmless tweak
+echo "[PoC] post-approval fork code executed with the build label still present — no re-approval"
+echo "[PoC] (on cdap this runs on the self-hosted k8s-runner-build via 'mvn clean test')"
